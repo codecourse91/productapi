@@ -1,38 +1,150 @@
-.App {
+.App .nav
+{
+  background-color: #F7A8CA;
+  color:black;
+}
+.dataimg img
+{
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(41, 39, 39);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  border: 1px solid black;
+}
+.detail
+{
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+.price
+{
+  top: -35px;
+  text-decoration: line-through;
+  position: relative;
+  font-weight: 700;
+}
+.price span
+{
+  font-size: 15px;
+  font-weight: 500;
+}
+.price2
+{
+  display: none;
+}
+.price1
+{
+  top: -35px;
+  position: relative;
+  font-weight: 700;
+}
+.price1 span
+{
+  font-size: 15px;
+  font-weight: 500;
+}
+.brand
+{
+  font-size: 20px;
+  color: #990000;
+  position: relative;
+  font-weight: 700;
+  top: -20px;
+  left: 60px;
+}
+.cat
+{
+  top: -27px;
+  position: relative;
+  color: #800000;
+}
+.rat
+{
+  position: relative;
+  left: 30%;
+  top: -30px;
+  width: 60px;
+  color:white;
+  background-color:#23BB75;
+  border-color:#23BB75;
+  padding-top: 5px;
+  border-radius: 6px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dis
+{
+  position: relative;
+  top: -40px;
+  font-weight: 700;
+  color: #800000;
+}
+.stock
+{
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #800000;
+}
+.st1
+{
+  margin-left: 40px;
+}
+.des
+{
+  position: relative;
+  top: -34px;
+}
+h6 span{
+  color: gray;
+  margin-right: 2px;
+}
+h6
+{
+  font-size: 18px;
+  font-weight: 600;
+}
+.foot1
+{
+  background-color: #F7A8CA;
+  color: black;
+}
+.star
+{
+  color: darkgoldenrod;
+  position: relative;
+  top: -35px;
+  font-size: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-body .btn ,.card-body .btn:hover
+{
+  margin-left: 30%;
+  position: relative;
+  top: -30px;
+  font-weight: 600;
+  background-color: #F7A8CA;
+  padding: 2px 10px;
+  border: 2px solid #F7A8CA;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.data1 img
+{
+  margin-left: 100px;
 }
-
-.App-link {
-  color: #61dafb;
+.offcanvas-body .btn{
+  color:black;
+  background-color: #F7A8CA;
+  border: 2px solid #F7A8CA;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.offcanvas-body .btn:hover{
+  color:black;
+  background-color: #d66596;
+  border: 2px solid #d66596;
 }
